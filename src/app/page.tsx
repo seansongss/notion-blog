@@ -1,4 +1,13 @@
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu"
 import Image from "next/image";
 
 export default function Home() {
@@ -12,6 +21,12 @@ export default function Home() {
               <NavigationMenuContent>
                 <NavigationMenuLink>Link</NavigationMenuLink>
               </NavigationMenuContent>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              Item Two
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              Item Three
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
